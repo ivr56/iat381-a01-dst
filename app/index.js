@@ -791,7 +791,7 @@ a01.controller('questionscontrollerh', function ($scope,$rootScope,$routeParams,
     else if ($rootScope.pagechange === 1)
     {
         startclock();
-        $scope.counter = 5;
+        $scope.counter = 25;
 
 
 
@@ -812,7 +812,7 @@ a01.controller('questionscontrollerh', function ($scope,$rootScope,$routeParams,
     function startclock()
        {
            console.log("Start Clock");
-           timesup = setTimeout(callTimeout, 5000);
+           timesup = setTimeout(callTimeout, 25000);
            console.log(timesup);
        }
 
