@@ -2,7 +2,7 @@
   //------------------
   //Index.js Start
   //Angualr Start
-  var a01 = angular.module('iat381-a01', ['ngRoute', 'ngAnimate']);
+  var a01 = angular.module('iat381-a01', ['ngRoute', 'ngAnimate','ui.bootstrap']);
 
 
     a01.config(['$routeProvider',
