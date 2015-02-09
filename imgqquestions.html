@@ -1,0 +1,101 @@
+<head>
+
+<style>
+.imageblock
+    {
+    }
+</style>
+
+
+</head>
+<body>
+<div class="q_bg">
+
+    <div data-ng-include data-src="'scorebarh.html'"></div>
+
+
+    <!--- Irene Injected -->
+    <!--- Irene Injected-->
+
+
+<div class="imgq_quizpgcontainer">
+<!-- added/change class name-->
+<div class="jumbotron text-center">
+
+        <!-- start of irene testing-->
+
+        <!-- <p>{{user.name}}</p>-->
+
+        <!-- end of irene testing line-->
+
+  <div class="imgq_questionContainer">
+
+
+    <h3>Is this character alive or dead?</h3>
+
+
+    <div id="staybox">
+      <!-- Debug Controls-->
+
+
+
+
+      <!-- The Container-->
+      <div class="container slider">
+
+
+
+        <!-- The Image-->
+      <img ng-repeat="slide in slides" class="slide" class="check-element animate-hide"
+          ng-hide="!isCurrentSlideIndex($index)" ng-src="{{slide.image}}" width="100%" alt="placeholder img" height="60%"id="boximg">
+
+          <!-- The Content-->
+          <div ng-repeat="slide in slides" class="slide" class="check-element animate-hide"
+          ng-hide="!isCurrentSlideIndex($index)">
+          <!-- The Question-->
+          <p>{{slide.question}}</p>
+
+          <!-- The Options-->
+
+          <!-- The Big Ask-->
+          <!-- Hide Visibility with CSS {{slide.answer_a}} {{slide.answer_d}} {{slide.correct}} keep rest visible like questions.html-->
+
+          <div class="imgq_button">
+            <div class="sleft">
+
+          <a ng-click="answerquestionh(slide.answer_a, slide.correct)" ng-swipe-left="answerquestionh(slide.answer_a, slide.correct)">
+            <img src="img/swipeleft.png" width="30%" alt="left icon">
+            <!--{{slide.answer_a}} -->{{slide.answer_ad}} <!--{{slide.correct}} --></a>
+
+        </div>
+        </div>
+
+            <div class="imgq_button">
+              <div class="sright">
+
+
+          <a ng-click="answerquestionh(slide.answer_d, slide.correct)" ng-swipe-right="answerquestionh(slide.answer_a, slide.correct)"><!--{{slide.answer_d}}--> {{slide.answer_dd}}  <!-- {{slide.correct}}--></a>
+           <img src="img/swiperight.png" width="30%" alt="right icon">
+
+        </div>
+          </div>
+
+          </div>
+
+
+
+  </div>
+
+</div>
+
+
+</div>
+      </div>
+
+    </div>
+    </div>
+      <!-- Irene: Your stuff is backed up in my notepad for what was here-->
+
+
+
+</body>

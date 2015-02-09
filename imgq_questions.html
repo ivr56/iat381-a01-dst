@@ -1,0 +1,106 @@
+<head>
+<style>
+.imageblock
+    {
+    }
+
+    </style>
+
+     <link rel="stylesheet" href="styles/questions.css" type="text/css" media="screen">
+      <script src="../bower_components/angular/angular.min.js"></script>
+  <script src="../bower_components/angular-touch/angular-touch.js"></script>
+  <script src="app/js/imgq_script.js"></script>
+
+</head>
+<body>
+<div class="q_bg">
+
+    <div data-ng-include data-src="'scorebar.html'"></div>
+
+
+    <!--- Irene Injected -->
+    <!--- Irene Injected-->
+
+
+<div class="imgq_quizpgcontainer">
+<!-- added/change class name-->
+<div class="jumbotron text-center">
+
+        <!-- start of irene testing-->
+
+        <!-- <p>{{user.name}}</p>-->
+
+        <!-- end of irene testing line-->
+
+  <div class="imgq_questionContainer">
+      <div>
+        <!-- Question Number: {{questionnumber}}-->
+      </div>
+    <!-- added/change class name-->
+      <div>
+        <h3>{{question}}</h3>
+
+
+      </div>
+
+
+       <div class="imgq_answerContainer">
+      <img ng-repeat="slides in slides" class="slide slide-animation" ng-hide="!isCurrentSlideIndex($index)" ng-src="{{tinder.image}}">
+       </div>
+       <a class="arrow prev" href="#" ng-click"nextSlide()"></a>
+       <a class="arrow next" href="#" ng-click"prevSlide()"></a>
+
+       
+
+      <!-- Irene: added/change class name-->
+       <div class="imgq_answerContainer" ng-controller="ngSwipeQuiz">
+             <div class="imgq_button">
+                <div class="sleft">
+                  <img src="img/swipeleft.png" width="50%" alt="swipe left"> No
+                </div>
+              <div class="sright"  ng-swipe-right="showActions = false">
+                <img src="img/swiperight.png" width="50%" alt="swipe right"> Yes
+              </div>
+
+            </div>
+            
+             <div class="imgq_imgblock"  ng-controller="imagecontroller" ng-swipe-left="showAction =true">
+                <!--<img ng-src="{{availableImages[currentImage].src}}" width="100%" alt="placeholder img" height="60%">-->
+
+                <div ng-show="showActions"><img src="img/hard/hard-jon.jpg" width="100%" alt="placeholder img" height="60%"></div>
+                 <div ng-show="!showActions"><img src="img/hard/hard-rob.jpg" width="100%" alt="placeholder img" height="60%"></div>
+            </div>
+
+
+<!--- New Carsouel End -->
+
+
+        <!--<a
+          ng-repeat="answer in answers"
+          style="display:block; color:blue"
+          ng-click="answerquestion(answer.AnswerId, answer.Answer, check)">-->
+
+          <!-- Irene: added/change class name-->
+          <!-- <p class="answerBlock">
+             {{answer.Answer}}
+          </p>
+          <p class='hideID'>{{answer.AnswerId}}</p>
+          <p class='answerCheck'>{{check}}</p>
+        </a>-->
+      </div>
+</div>
+
+</div>
+
+
+       <!--- Irene End -->
+
+       <!--- Irene End ->
+
+
+</div>
+
+</div>
+
+
+</body>

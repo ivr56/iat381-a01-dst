@@ -1,0 +1,8 @@
+Anna Banana | Anna@gmail.com | password1 
+Harry Lindsey | Harry@gmail.com | password2
+Christina Bowen| Christina@gmail.com | password3 
+Francis Newton | Francis@gmail.com | password4 
+Bella Briggs | Bella@gmail.com | password5
+Dean Collins | Dean@gmail.com | password6
+Josh Moss | Josh@gmail.com | password7
+Teri Webb | Teri@gmail.com | password8

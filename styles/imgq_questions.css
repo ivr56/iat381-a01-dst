@@ -1,0 +1,184 @@
+html, body {
+  overflow-y: hidden;
+}
+body {
+  position: relative
+}
+
+.qcontainer
+{
+	overflow: hidden;
+}
+
+
+.imgq_questionContainer{
+	display: block;
+	height: 60%;
+	padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #f9f9f9;
+
+
+}
+
+.imgq_answerContainer{
+	display: inline-block;
+  height: 40%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+ /*leave this, this centers answer block*/
+  padding-left: 2%;
+
+
+}
+
+.imgq_answerBlock{
+  display: inline-block;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  display: inline-block;
+  width: 45%;
+  margin-right: 5px;
+  height:80px;
+   color: #aaa;
+   float: left;
+}
+
+
+
+.imgblock{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+}
+
+.answerCheck{
+  display: none;
+}
+
+.btn-lg {
+background-color: #000;
+}
+
+.btn {
+background-color: #000;
+width: 100%;
+height:80px;
+border-radius: 0 !important;
+border: 1px solid #194775;
+
+}
+
+.btn:hover{
+ background-color: #194775;
+ border: 1px solid #194775;
+}
+
+
+
+.imgq_quizpgcontainer .jumbotron{
+	padding: 0;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: relative;
+  top: 50px;
+  display: inline-block;
+  height: 90%;
+    border-top-width: 2px;
+  border-top-style: outset;
+  box-shadow: 0 5px 8px rgba(0,0,0,0.1);
+
+}
+
+
+.buttondemoBasicUsage {
+  /** From vulcanized demo **/ }
+  .buttondemoBasicUsage section {
+    background: #f7f7f7;
+    border-radius: 3px;
+    text-align: center;
+    margin: 1em;
+    position: relative !important;
+    padding-bottom: 10px; }
+  .buttondemoBasicUsage md-content {
+    margin-right: 7px; }
+  .buttondemoBasicUsage section .md-button:not(.md-fab) {
+    min-width: 10em; }
+  .buttondemoBasicUsage section .md-button {
+    display: block;
+    margin: 1em;
+    line-height: 25px; }
+  .buttondemoBasicUsage .label {
+    position: absolute;
+    bottom: 5px;
+    left: 7px;
+    color: #ccc;
+    font-size: 14px; }
+
+
+.hideID{
+display: none;
+}
+
+
+.imgq_button{
+  z-index: 2;
+  display: inline-block;
+
+
+}
+
+.imgq_button .sleft{
+  position: absolute;
+  left:0%;
+  bottom: 5%;
+   background-color: #fff;
+ 
+   padding-top: 10px;
+   border-top-width: 2px;
+ box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+
+}
+
+.sleft a{
+  color: #aaa;
+}
+
+.sright a{
+  color: #aaa;
+}
+
+.imgq_button .sright{
+  position: absolute;
+  right:0%;
+  bottom: 5%;
+  background-color: #f9f9f9;
+   border-top-width: 2px;
+
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  padding-top: 10px;
+}
+.slide{
+  margin-bottom: 40px;
+  height: 60%;
+}
+
+#staybox{
+  display: inline-block;
+  height: 280px;
+}
+
+.slider #boximg{
+    border-top-width: 2px;
+
+  box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+
+
+}
+
+
+

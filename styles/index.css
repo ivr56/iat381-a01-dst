@@ -1,0 +1,193 @@
+html{
+  overflow:hidden;
+}
+
+body{ 
+font-family: 'Libre Baskerville', serif;
+overflow:hidden;
+
+}
+.main_bg
+{
+    background-color: #000;
+	background-image:url('http://images4.alphacoders.com/242/242556.jpg');
+	background-position: top;
+	background-repeat: no-repeat;
+	font-family: "Baskerville";
+	font-size: 14px;
+    width: 100%;
+    height: 710px;
+    overflow:hidden;
+}
+
+
+.signuppg .jumbotron{
+	position: relative;
+	top:180px;
+	width: 70%;
+	 	margin-right: auto;
+ 	margin-left: auto;
+	height: 150px;
+   box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+ }
+ 
+ .signuppg .jumbotron .btn{
+ /* -132,7 +132,7 @@ p.normaltext */
+
+ }
+
+
+
+#headtext .jumbotron{
+	background-color: transparent;
+}
+
+.jumbotron{
+	position: absolute;
+	bottom:10px;
+	left:0;
+	width: 100%;
+	 border-radius: 0 !important;
+  -moz-border-radius: 0 !important;
+  box-shadow: 0 8px 5px rgba(0,0,0,0.1);
+
+}
+
+
+.subtitle h2{
+	display: inline;
+	margin: 0;
+	color: #aaa;
+}
+
+
+
+.container p{
+    color: #333;
+    
+}
+
+
+.btn {
+background-color: #fff;
+ box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+
+
+}
+
+.btn:hover{
+ background-color: #333;   
+}
+
+p.normaltext{
+	color: #333;
+}
+
+
+.imgbutton{
+  width:160px;
+  height: 180px;
+  background-image: url("../img/stark.jpg");
+  display: inline-block;
+}
+.imgbutton1{
+  width:160px;
+  height: 180px;
+  background-image: url("../img/lannister.jpg");
+  display: inline-block;
+}
+
+.imgtext{
+  width:160px;
+  height:180px;
+  background: #722E31;
+  opacity: 0;
+  display: inline-block;
+
+}
+
+.imgtext1{
+  width:160px;
+  height:180px;
+  background: #722E31;
+  opacity: 0;
+  display: inline-block;
+
+}
+
+.imgbutton:hover .imgtext{
+  opacity: 0.5;
+  text-align: top;
+  color: #fff;
+  font-size: 18px;
+  padding: 50px;
+  font-weight: 700;
+  display: inline-block;
+}
+
+.imgbutton1:hover .imgtext1{
+  opacity: 0.5;
+  text-align: top;
+  color: #fff;
+  font-size: 18px;
+  padding: 50px;
+  font-weight: 700;
+  display: inline-block;
+}
+
+input{
+margin:0;
+ 	height: 40px;
+ 	border: 0;
+ 	width: 90%;
+box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+}
+
+.btn-success{
+  background-color: #f9f9f9 !important;
+  color: black !important;
+ box-shadow: 0 5px 2px rgba(0,0,0,0.1);
+ border: 0 !important;
+}
+.btn-success:hover{
+  border: 0 !important;
+}
+
+input[type="submit"]{
+	background-color: #fff;
+
+	color: 333;
+}
+
+.formname{
+	background-color: #fff;
+	width: 50px;
+	height:40px;
+	display: inline-block;
+	margin:5px 0 15px 0;
+	padding: 10px;
+
+}
+
+.formline{
+	background-color: #fff;
+	display: inline-block;
+	height: 50px;
+	margin-top: 20px;
+
+}
+
+
+.btn 
+{
+background-color: #f9f9f9;
+width: 40%;
+height: 40px;
+border-radius: 0 !important;
+border: 1px solid #ccc;
+margin-right: 10px;
+display: inline-block;
+color: #333;
+
+
+}

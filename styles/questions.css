@@ -1,0 +1,156 @@
+
+
+.q_bg
+{
+    
+  /*background-image: none;*/
+    background-color: #f9f9f9;
+    background-image:url('../img/JonSnow.jpg');
+    height: 800px;
+}
+.questionContainer{
+	display: block;
+	height: 60%;
+	padding: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: #f9f9f9;
+
+
+}
+
+.answerContainer{
+	display: inline-block;
+  height: 40%;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+ /*leave this, this centers answer block*/
+  padding-left: 2%;
+
+}
+
+.answerBlock{
+  display: inline-block;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  display: inline-block;
+  width: 45%;
+  margin-right: 5px;
+  height:80px;
+   color: #aaa;
+   float: left;
+   box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+}
+
+p.answerBlock{
+  color: #aaa;
+  font-size: 18px;
+}
+
+
+
+.answerRow{
+	width: 100%;
+}
+
+.imgblock{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 100%;
+}
+
+
+.imgblock img{
+  box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+}
+.answerCheck{
+  display: none;
+}
+
+.btn-lg {
+background-color: #000;
+}
+
+.btn {
+background-color: #000;
+width: 100%;
+height:80px;
+border-radius: 0 !important;
+border: 1px solid #194775;
+    
+}
+
+.btn:hover{
+ background-color: #194775;   
+ border: 1px solid #194775;
+}
+
+
+
+.quizpgcontainer .jumbotron{
+	padding: 0;
+  width: 90%;
+  margin-left: 5%;
+  margin-right: 5%;
+  position: relative;
+  top: 50px;
+  display: inline-block;
+  height: 90%;
+
+
+}
+.container .jumbotron{
+	padding: 0;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.buttondemoBasicUsage {
+  /** From vulcanized demo **/ }
+  .buttondemoBasicUsage section {
+    background: #f7f7f7;
+    border-radius: 3px;
+    text-align: center;
+    margin: 1em;
+    position: relative !important;
+    padding-bottom: 10px; }
+  .buttondemoBasicUsage md-content {
+    margin-right: 7px; }
+  .buttondemoBasicUsage section .md-button:not(.md-fab) {
+    min-width: 10em; }
+  .buttondemoBasicUsage section .md-button {
+    display: block;
+    margin: 1em;
+    line-height: 25px; }
+  .buttondemoBasicUsage .label {
+    position: absolute;
+    bottom: 5px;
+    left: 7px;
+    color: #ccc;
+    font-size: 14px; }
+
+
+.quizheader{
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  width: 100%;
+  display: inline-block;
+  height: 25px;
+
+}
+
+.hideID{
+display: none;
+}
+
+
+h3{
+  font-size: 18px !important;
+}
+

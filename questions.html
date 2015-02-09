@@ -1,0 +1,75 @@
+<head>
+<style>
+.imageblock
+    {
+    }
+
+    </style>
+
+     
+</head>
+<body>
+<div class="q_bg">
+    <div data-ng-include data-src="'scorebar.html'"></div>
+
+
+
+
+    <!--- Irene Injected -->
+
+    <!--- Irene Injected-->
+
+
+<div class="quizpgcontainer">
+<!-- added/change class name-->
+<div class="jumbotron text-center">
+
+
+        <!-- start of irene testing-->
+        <!-- <p>{{user.name}}</p>-->
+        <!-- end of irene testing line-->
+
+ <div class="imgblock">
+  <img ng-src="{{deck}}" width="100%" alt="placeholder img" height="60%">
+
+  </div>
+
+  <div class="questionContainer">
+      <div>
+         <!--<h2>Question Number: {{questionnumber}}</h2>-->
+      <h3>{{question}}</h3>
+
+      </div>
+
+
+      <!-- Irene: added/change class name-->
+      <div class="answerContainer">
+        <a
+          ng-repeat="answer in answers"
+          style="display:block; color:blue"
+          ng-click="answerquestion(answer.AnswerId, answer.Answer, check)">
+
+          <!-- Irene: added/change class name-->
+          <p class="answerBlock">
+             {{answer.Answer}}
+          </p>
+          <p class='hideID'>{{answer.AnswerId}}</p>
+          <p class='answerCheck'>{{check}}</p>
+        </a>
+      </div>
+</div>
+
+</div>
+
+
+       <!--- Irene End -->
+
+       <!--- Irene End ->
+
+
+</div>
+
+</div>
+
+
+</body>

@@ -1,0 +1,57 @@
+.difficultyselect
+{
+    width: 85%;
+   display: block;
+    padding-left: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    position: absolute;
+    top: 37%;
+    height: 50%;
+
+
+    
+}
+
+
+
+a.logBtn {
+
+width: 90%;
+height: 40px;
+border-radius: 0 !important;
+box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+background-color:#fff ;
+/*margin-right: 10px;*/
+display: block;
+border-top: 1px #eee solid;
+color: #333;
+text-align: center;
+line-height: 50px;
+margin-top: 0px;
+margin-bottom: 20px;
+/*margin-left: 10px;*/
+margin-left: auto;
+margin-right: auto;
+
+    
+    
+}
+
+.difficultyBox{
+margin-top: 20px;
+width: 90%;
+height: 200px;
+border-radius: 0 !important;
+/*border: 2px solid black;*/
+/*margin-right: 10px;*/
+display: block;
+margin-left: auto;
+margin-right: auto;
+background-color:#eee;
+padding-top: 20px;
+}
+
+.timing{
+    color: #333;
+}

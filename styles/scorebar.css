@@ -1,0 +1,70 @@
+#scorebar 
+{
+    display: black;
+    height: 41px;
+    margin-top: 0px;
+    width: 100%;
+    background-color: #fff;
+      border-top-width: 2px;
+
+  box-shadow: 0 5px 8px rgba(0,0,0,0.1);
+}
+
+
+.bar_qnumber 
+{
+    display: inline-block;
+    /*width: 70px;*/
+    width: 5%;
+    height: 20px;
+    margin-top: 10px;
+    /*margin-left: 12.5%;*/
+    margin-left: 15%;
+    /*float: left;*/
+    color: #000;
+}
+
+
+.bar_score
+{
+    display: inline-block;
+     /*width: 70px;*/
+    width: 18%;
+    height: 15px;
+    margin-top: 10px;
+    margin-left: 5%;
+     /*float: left;*/
+    color: #000;
+}
+
+
+.bar_timer
+{
+    display: inline-block;
+     /*width: 70px;*/
+    width: 15%;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 15%;
+    /*float: left;*/
+    color: #dc2b20;
+    font-size: 1.8em;
+    font-style: bold;
+    line-height: 20px;
+
+}
+
+
+.backArrow{
+    display: inline-block;
+    /*width: 70px;*/
+    width: 5%;
+    height: 20px;
+    margin-top: 10px;
+    /*margin-left: 12.5%;*/
+    margin-left: 5%;
+    /*float: left;*/
+    color: #000;
+
+}
+
